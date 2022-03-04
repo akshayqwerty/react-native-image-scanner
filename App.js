@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <View style={styles.screen}>
-      <Button title="Choose Image" />
+      <Button title="Choose Image" onPress={openGallery} />
     </View>
   );
 }
